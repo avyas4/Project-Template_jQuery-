@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7">
+   <![endif]-->
+   <!--[if IE 7]>         
+   <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8">
+      <![endif]-->
+      <!--[if IE 8]>         
+      <html lang="en" ng-app="myApp" class="no-js lt-ie9">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->
+         <html lang="en" class="no-js">
+            <!--<![endif]-->
+            <head>
+               <meta charset="utf-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <title>Project</title>
+               <meta name="description" content="">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+               <link rel='stylesheet' , href='app/assets/css/styles.css' />
+               <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+               <script src="app/assets/js/script.js"></script>
+            </head>
+            <body >
+               <!-- header component -->
+               <header>
+                  <div class="container main-div">
+                     <div class='header-main'>
+                        <img src="app/assets/images/javascript.png" alt=''></img>
+                        <span>PROJECT NAME</span>
+                     </div>
+                  </div>
+               </header>
+               <!-- main contnet component -->
+               <!-- Main container -->
+               <div class="container main-div">
+                  <!-- Carousel -->
+                  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                     <!-- Indicators -->
+                     <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                     </ol>
+                     <!-- Wrapper for slides -->
+                     <div class="carousel-inner">
+                        <div class="item active">
+                           <img src="app/assets/images/image1.jpg" alt="Los Angeles" >
+                        </div>
+                        <div class="item">
+                           <img src="app/assets/images/image2.jpg" alt="Chicago" >
+                        </div>
+                        <div class="item">
+                           <img src="app/assets/images/image3.jpg" alt="New york" >
+                        </div>
+                     </div>
+                     <!-- Left and right controls -->
+                     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                     <span class="glyphicon glyphicon-chevron-left"></span>
+                     </a>
+                     <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                     <span class="glyphicon glyphicon-chevron-right"></span>
+                     </a>
+                  </div>
+                  <!-- Second container for project name -->
+                  <div class='secondSection'>
+                     <h1>PROJECT NAME</h1>
+                     <a>SERVICE OFFERING CLIENT NAME</a>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. Fusce vel ultricies purus. In consectetur nibh odio, mattis varius purus faucibus in. </p>
+                     <button>visit site</button>
+                  </div>
+                  <!-- Third container for modal caption -->
+                  <div class='sectionThird'>
+                     <span>(Click on image to get more info)</span>
+                     <img alt='' id="myImg" src="app/assets/images/image1.jpg"  >
+                     <!-- The Modal -->
+                     <div id="myModal" class="modal" >
+                        <span class="close" >&times;</span>
+                        <div id="caption">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. </div>
+                     </div>
+                  </div>
+                  <!-- Fourth container for text and heading -->
+                  <div class='sectionFour'>
+                     <h2>
+                     BLURB</h1>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. </p>
+                  </div>
+                  <!-- Fifth container for image caption -->
+                  <div class='sectionFive'>
+                     <div class='row'>
+                        <div class='col-xs-6 col-md-5'>
+                           <div class='show-content-text'>
+                              <h3>Breakout area</h3>
+                              <p class='border-bottom'></p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. </p>
+                           </div>
+                        </div>
+                        <div class='col-xs-6 col-md-7'>
+                           <div class='background-color'></div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class='sectionFour'>
+                     <h2>
+                     BLURB</h1>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper dui et congue. Vivamus dignissim nisi vel mollis porta. </p>
+                  </div>
+                  <!-- Image caption -->
+                  <div class='imgSection'>
+                     <div class='row'>
+                        <div class='col-md-2 content'>
+                           <p class='contentHeader'>IMAGE CAPTION
+                           <p>
+                           <p class='contentDetails'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper</p>
+                        </div>
+                        <div class='col-md-10 imgFirst'><img  alt='' src="app/assets/images/image1.jpg"></img></div>
+                     </div>
+                     <div class='row'>
+                        <div class='col-md-2 content'>
+                           <p class='contentHeader'>IMAGE CAPTION
+                           <p>
+                           <p class='contentDetails'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam hendrerit ullamcorper</p>
+                        </div>
+                        <div class='col-md-5 imgFirst'><img alt='' class='imgFirstOne' src="app/assets/images/image1.jpg"></img></div>
+                        <div class='col-md-5 imgFirst imgFirstPadding'><img alt='' class='imgFirstTwo' src="app/assets/images/image1.jpg"></img></div>
+                     </div>
+                  </div>
+                  <!-- last container for grid view -->
+                  <div class='sectionSix'>
+                     <div class='content-bottom'>
+                        <h3>More projects</h3>
+                        <p>Lorem ipsum dolor sit amet</p>
+                     </div>
+                     <div class='row'>
+                        <div class='col-xs-6 col-md-3'>
+                           <img alt='' src="app/assets/images/corporate1.jpg" >
+                           <p class='text-bold'>project name</p>
+                           <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div class='col-xs-6 col-md-3'>
+                           <img alt='' src="app/assets/images/corporate2.jpg" >
+                           <p class='text-bold'>project name</p>
+                           <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div class='col-xs-6 col-md-3'>
+                           <img alt='' src="app/assets/images/corporate3.jpg" >
+                           <p class='text-bold'>project name</p>
+                           <p>Lorem ipsum dolor sit</p>
+                        </div>
+                        <div class='col-xs-6 col-md-3'>
+                           <img alt='' src="app/assets/images/corporate4.jpg" >
+                           <p class='text-bold'>project name</p>
+                           <p>Lorem ipsum dolor sit</p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <!-- footer component -->
+               <footer class='footer-main'>
+                  <div class="container main-div">
+                     <p>c) Deloitte digital 2013</p>
+                  </div>
+               </footer>
+            </body>
+         </html>

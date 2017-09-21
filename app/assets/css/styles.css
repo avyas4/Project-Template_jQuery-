@@ -1,0 +1,306 @@
+
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.main-div {
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #484848;
+    color: #fff;
+}
+.main-div .carousel-control, .main-div .carousel-control:hover {
+    background-image: none!important;
+}
+.main-div #myCarousel {
+    max-width: 100%}
+@media screen and (max-width:989px) {
+    .main-div #myCarousel {
+    max-width: 100%;
+    height: auto;
+}
+}.main-div .carousel-inner img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+@media screen and (max-width:768px) {
+    .main-div {
+    padding-left: 2%;
+    padding-right: 2%}
+.main-div .carousel-inner img {
+    height: 400px;
+}
+}.main-div .carousel-control {
+    opacity: 1;
+}
+.main-div .secondSection {
+    text-align: center;
+}
+.main-div .secondSection h1 {
+    font-size: 60px;
+    margin-top: 60px;
+}
+.main-div .secondSection a {
+    color: #fff;
+    font-size: 14px;
+}
+.main-div .secondSection p {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 24px;
+}
+.main-div .secondSection button {
+    height: 60px;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 220px;
+}
+.main-div .sectionThird {
+    padding-top: 60px;
+}
+.main-div .sectionThird #myImg {
+    cursor: pointer;
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+}
+.main-div .sectionThird #myImg:hover {
+    opacity: .7;
+}
+@media screen and (max-width:989px) {
+    .main-div .sectionThird #myImg {
+    height: auto;
+}
+}.main-div .sectionThird .modal {
+    display: none!important;
+    position: fixed;
+    z-index: 100;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .9);
+}
+.main-div .sectionThird .modal.show-modal {
+    display: block!important;
+}
+.main-div .sectionThird .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+.main-div .sectionThird #caption {
+    margin: 20% auto auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.main-div .sectionThird #caption, .main-div .sectionThird .modal-content {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: .6s;
+    animation-name: zoom;
+    animation-duration: .6s;
+}
+@keyframes zoom {
+    from {
+    transform: scale(0);
+}
+to {
+    transform: scale(1);
+}
+}.main-div .sectionThird .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #fff;
+    opacity: 1;
+    font-size: 40px;
+    font-weight: 600;
+    transition: .3s;
+}
+.main-div .sectionThird .close:focus, .main-div .sectionThird .close:hover {
+    color: #f1f1f1;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width:768px) {
+    .main-div .sectionThird .modal-content {
+    width: 100%}
+}.sectionSix .row>div {
+    padding-bottom: 20px;
+}
+.main-div .sectionFour {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-div .sectionFour h2 {
+    font-weight: 600;
+}
+.main-div .sectionFour p {
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 18px;
+}
+.main-div .imgSection .row {
+    padding-top: 10px;
+    margin: 0;
+}
+.main-div .imgSection .content {
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
+.main-div .imgSection .content .contentHeader {
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-div .imgSection .content .contentDetails {
+    font-size: 13px;
+}
+.main-div .sectionSix .content-bottom p, .main-div .sectionSix .row {
+    font-size: 14px;
+}
+.main-div .imgSection .imgFirst img {
+    width: 100%;
+    object-fit: cover;
+}
+.imgFirst img:hover {
+    -webkit-transition: all .2s ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all .2s ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all .2s ease-in;
+    -moz-transform: scale(1.5);
+    transition: all .2s ease-in;
+    transform: scale(1.05);
+}
+.main-div .imgSection .imgFirst .imgFirstOne {
+    height: 400px;
+}
+@media screen and (min-width:989px) {
+    .main-div .imgSection .imgFirst {
+    padding-right: 0;
+}
+.main-div .imgSection .imgFirst.imgFirstPadding {
+    padding: 0;
+}
+.main-div .imgSection .imgFirst .imgFirstOne {
+    padding-right: 5px;
+}
+.main-div .imgSection .imgFirst .imgFirstTwo {
+    padding-left: 5px;
+}
+}@media screen and (max-width:989px) {
+    .main-div .imgSection .imgFirst.imgFirstPadding {
+    padding-top: 20px;
+}
+.main-div .imgSection .imgFirst .imgFirstOne {
+    height: auto;
+}
+}.main-div .imgSection .imgFirst .imgFirstTwo {
+    height: 400px;
+}
+@media screen and (max-width:989px) {
+    .main-div .imgSection .imgFirst .imgFirstTwo {
+    height: auto;
+}
+}.main-div .sectionSix {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.main-div .sectionSix .content-bottom {
+    padding-top: 5px;
+    padding-bottom: 40px;
+}
+.main-div .sectionSix .content-bottom h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main-div .sectionSix .row img {
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+}
+.main-div .sectionSix .row img:hover {
+    -webkit-transition: all .2s ease-in;
+    -webkit-transform: scale(1);
+    -ms-transition: all .2s ease-in;
+    -ms-transform: scale(1);
+    -moz-transition: all .2s ease-in;
+    -moz-transform: scale(1.5);
+    transition: all .2s ease-in;
+    transform: scale(1.05);
+}
+.main-div .sectionSix .row .text-bold {
+    padding-top: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.main-div .sectionSix .row p {
+    margin-bottom: 0;
+}
+.main-div .sectionFive {
+    background: #fff;
+    height: 530px;
+    margin-left: -13%;
+    margin-right: -13%;
+    color: #000;
+}
+.main-div .sectionFive .background-color {
+    background: #e6e6e6;
+    height: 440px;
+    margin-right: 8%;
+    margin-top: 90px;
+}
+.main-div .sectionFive .show-content-text {
+    padding-top: 172px;
+    padding-left: 25%;
+    padding-right: 4%}
+.main-div .sectionFive .show-content-text h3 {
+    text-transform: uppercase;
+}
+.main-div .sectionFive .show-content-text .border-bottom {
+    border: 1px solid #e6e6e6;
+    width: 11%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.header-main {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.header-main img {
+    height: 40px;
+}
+.header-main span {
+    float: right;
+    font-weight: 600;
+    padding-top: 16px;
+}
+.footer-main div {
+    padding-top: 20px;
+}
+.footer-main div p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #6d6d6d;
+    border-top: 1px solid #6d6d6d;
+}
